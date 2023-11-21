@@ -10,6 +10,8 @@ body {
   }
   
   nav {
+    font-size: 20px;
+    font-weight: bolder;
     display: flex;
     gap: 10px;
   }
@@ -39,4 +41,16 @@ body {
 
   .hero {
     text-align: center;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 20;
   }
