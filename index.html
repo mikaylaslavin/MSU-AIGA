@@ -3,22 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MSU AIGA Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>MSU AIGA Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        margin: 0;
+      }
+      main {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      section {
+        width: 42%;
+        background: #eee;
+        padding: 4%;
+      }
+      section:nth-child(even) {
+        background: #ddd;
+      }
+
+      h2 {
+        width: 100%;
+      }
+    </style>
 </head>
 <body>
-
-    <header>
-        <nav>
-            <a href="#About">About</a>
-            <a href="#Schedule">Schedule</a>
-            <a href="#E-Board">E-Board</a>
-            <a href="#Resources">Resources</a>
-            <a href="#Contact">Contact</a>
-        </nav>
-    </header>
-
-
+  <header>
+    <h1>MSU AIGA</h1>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="eboard.html">E-Board</a>
+      <a href="resources.html">Resources</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, magnam temporibus dolor accusantium quia sapiente dolores! Doloribus neque aspernatur magnam minus perspiciatis? Repellendus debitis facilis aperiam distinctio tempore hic iure.</p>
+    </section>
+    <section>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, magnam temporibus dolor accusantium quia sapiente dolores! Doloribus neque aspernatur magnam minus perspiciatis? Repellendus debitis facilis aperiam distinctio tempore hic iure.</p>
+    </section>
+    <h2>About MSU AIGA</h2>
+    <section>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, magnam temporibus dolor accusantium quia sapiente dolores! Doloribus neque aspernatur magnam minus perspiciatis? Repellendus debitis facilis aperiam distinctio tempore hic iure.</p>
+    </section>
+    <section>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, magnam temporibus dolor accusantium quia sapiente dolores! Doloribus neque aspernatur magnam minus perspiciatis? Repellendus debitis facilis aperiam distinctio tempore hic iure.</p>
+    </section>
+    <section>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, magnam temporibus dolor accusantium quia sapiente dolores! Doloribus neque aspernatur magnam minus perspiciatis? Repellendus debitis facilis aperiam distinctio tempore hic iure.</p>
+    </section>
+    <section>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, magnam temporibus dolor accusantium quia sapiente dolores! Doloribus neque aspernatur magnam minus perspiciatis? Repellendus debitis facilis aperiam distinctio tempore hic iure.</p>
+    </section>
+  </main>
+  <footer>
+    <p>This is a footer</p>
+  </footer>
 </body>
 </html>
  
