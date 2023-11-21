@@ -32,3 +32,11 @@ body {
   h2 {
     width: 100%;
   }
+
+  .homepage-image {
+    width: 100%;
+  }
+
+  .hero {
+    text-align: center;
+  }
