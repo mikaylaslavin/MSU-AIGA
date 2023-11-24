@@ -4,7 +4,7 @@ body {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap:25px;
+    gap:10px;
     align-items: center;
   }
   section {
@@ -16,7 +16,7 @@ body {
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
   
   header {
