@@ -2,11 +2,12 @@ body {
     margin: 0;
   }
   main {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:25px;
+    align-items: center;
   }
   section {
-    width: 50%;
     background: hsl(0, 0%, 100%);
     padding: 0%;
   }
@@ -15,7 +16,6 @@ body {
   }
 
   h2 {
-    width: 100%;
     font-size: 30px;
   }
   
@@ -40,7 +40,7 @@ body {
 
   section.hero {
     text-align: center;
-    padding-top: 40px;
+    padding-bottom: 50px;
   }
 
   h3 {
@@ -54,6 +54,13 @@ body {
   .homepage-text {
     width: 70%;
     padding-top: 40px;
+  }
+
+
+  @media screen and (max-width: 700px) {
+    main{
+        grid-template-columns: 1fr;
+    }
   }
 
  
