@@ -27,11 +27,24 @@ body {
   }
   
   nav {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bolder;
     display: flex;
     gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
   }
+
+  nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: #00B48A;
+}
   
 
   .homepage-image {
@@ -46,14 +59,15 @@ body {
 
   h3 {
     font-size: 25px;
+    color: #2C5950;
   }
 
   p {
-    font-size: 20;
+    font-size: 20px;
   }
 
   .homepage-text {
-    width: 70%;
+    
     padding-top: 40px;
   }
 
@@ -63,5 +77,51 @@ body {
         grid-template-columns: 1fr;
     }
   }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-right: 0;
+    height: 20px;
+}
+
+.search-bar button {
+    padding: 5px;
+    background-color: #00B48A; 
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+    height: 34px;
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    nav {
+        margin: 0 0; 
+    }
+
+    nav a {
+        white-space: nowrap;
+    }
+
+    .search-bar {
+        margin-top: 10px; 
+    }
+}
+
+
+
+
 
  
