@@ -1,6 +1,23 @@
 body {
     margin: 0;
   }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section {
+    width: 50%;
+    background: hsl(0, 0%, 100%);
+    padding: 0%;
+  }
+  section:nth-child(even) {
+    background: #ffffff;
+  }
+
+  h2 {
+    width: 100%;
+    font-size: 30px;
+  }
   
   header {
     display: flex;
@@ -16,35 +33,14 @@ body {
     gap: 10px;
   }
   
-  main {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  section {
-    width: 50%;
-    background: #eee;
-    padding: 4%;
-  }
-  
-  section:nth-child(even) {
-    background: #ddd;
-  }
-  
-  h2 {
-    width: 100%;
-  }
 
   .homepage-image {
     width: 100%;
   }
 
-  .hero {
+  section.hero {
     text-align: center;
-  }
-
-  h2 {
-    font-size: 30px;
+    padding-top: 40px;
   }
 
   h3 {
@@ -54,3 +50,10 @@ body {
   p {
     font-size: 20;
   }
+
+  .homepage-text {
+    width: 70%;
+    padding-top: 40px;
+  }
+
+ 
