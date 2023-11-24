@@ -111,6 +111,7 @@ nav a:hover {
 
     nav {
         margin: 0 0; 
+        min-width: unset;
     }
 
     nav a {
