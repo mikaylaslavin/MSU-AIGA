@@ -24,6 +24,7 @@ body {
 
   h2 {
     color: #2C5950;
+    
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -95,7 +96,7 @@ nav a:hover {
   }
 
   section.hero h3 {
-    margin-top: 2;
+    margin-top: 3;
     margin-bottom: 0;
   }
 
