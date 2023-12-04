@@ -5,28 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MSU AIGA Flexbox</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-      body {
-        margin: 0;
-      }
-      main {
-        display: flex;
-        flex-wrap: wrap;
-      }
-      section {
-        width: 42%;
-        background: #eee;
-        padding: 4%;
-      }
-      section:nth-child(even) {
-        background: #ddd;
-      }
-
-      h2 {
-        width: 100%;
-      }
-    </style>
 </head>
+
 <body>
   <header>
 
@@ -39,16 +19,50 @@
       <a href="resources.html">Resources</a>
       <a href="contact.html">Contact</a>
     </nav>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Search MSU AIGA">
+        <button type="submit">Search</button>
+      </div>
+
   </header>
-  <h1>E-Board</h1>
+  <h1>Meet the 2023-2024 E-Board!</h1>
+
   <main>
-    <section>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, magnam temporibus dolor accusantium quia sapiente dolores! Doloribus neque aspernatur magnam minus perspiciatis? Repellendus debitis facilis aperiam distinctio tempore hic iure.</p>
+
+    <div>
+        <img src="images/aigaheroimage.png" class="homepage-image" alt="Homepage">
+      </div>
+   
+    <section class="hero">
+
+    <img src="images/homepagetext.png" class="homepage-text" style="width: 100%;" alt="Homepage Text">
+
+  <h2>The Michigan State Chapter of the <a href="https://www.aiga.org/" target="_blank">American Institute of Graphic Arts</a></h2>
+  <h3>Connecting, Networking, Collaborating</h3>
+  <p>We aim to celebrate design through connecting with students, networking with creative professionals, and collaborating through fun workshops and events. Although our group benefits design students the most, we urge students of any major to join!</p>
     </section>
+
     <section>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, magnam temporibus dolor accusantium quia sapiente dolores! Doloribus neque aspernatur magnam minus perspiciatis? Repellendus debitis facilis aperiam distinctio tempore hic iure.</p>
+      <h2 id="about-heading" class="about-heading">About MSU AIGA</h2>
+      <img src="images/aigamembers.jpg" style="width: 100%;" alt="AIGA members">
     </section>
+
+    <div class="margin">
+      <p>Our mission is to connect with one another and celebrate our passion for design through creative workshops and events. We invite creatives & designers of all majors to join us! We meet biweekly on Wednesdays at 7pm in the Kresge Art Center! Find more details on the schedule page.</p>
+    </div>
+
+    <div class="margin">
+      <p>Michigan State AIGA is a chapter of the oldest and largest professional membership organization for design, AIGA. We are proud to represent an incredible organization and follow their value of design.</p>
+    </div>
+
+    <div>
+      <img src="images/aigabw.jpg" style="width: 100%;" alt="AIGA logo">
+    </div>
+
+
   </main>
+
   <footer>
     <p>This is a footer</p>
   </footer>

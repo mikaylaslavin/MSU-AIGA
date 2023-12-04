@@ -2,6 +2,10 @@ body {
     margin: 0;
   }
 
+  .margin {
+    margin: 0 30px;
+  }
+
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -9,22 +13,15 @@ body {
     align-items: center;
   }
 
-  section {
-    background: hsl(0, 0%, 100%);
-    padding: 0%;
-  }
-
-  section:nth-child(even) {
-    background: #ffffff;
-  }
-
-  .margin {
-    margin: 0 20px;
+  h1 {
+    color: #00B48A;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
   }
 
   h2 {
     color: #2C5950;
-    
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -42,6 +39,7 @@ body {
     font-size: 20px;
     line-height: 2.5;
     margin-top: 0;
+    text-align: center;
   }
   
   header {
@@ -102,7 +100,6 @@ nav a:hover {
   .homepage-text {
     padding-top: 40px;
   }
-
 
   @media screen and (max-width: 700px) {
     main{
