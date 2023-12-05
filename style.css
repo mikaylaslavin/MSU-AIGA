@@ -210,4 +210,31 @@ footer {
     text-align: center;
 }
 
+.gcse-search {
+    display: flex;
+    align-items: center;
+}
+
+.gcse-search input {
+    padding: 5px;
+    margin-right: 0;
+    height: 20px;
+    width: 215px;
+}
+
+td .gsc-search-button {
+padding: 5px;
+background-color: #00B48A; 
+color: white;
+border-style: none;
+border-radius: 5px;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+cursor: pointer;
+height: 34px;
+}
+
+td.gsc-clear-button {
+    display: none;
+}
  
