@@ -185,5 +185,24 @@ nav a:hover {
     font-style: italic;
 }
 
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-icons a {
+    margin-right: 10px;
+  }
+  
+  .footer-icons img {
+    width: 40px; 
+  }
+
 
  
