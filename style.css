@@ -22,7 +22,7 @@ body {
 
   h2 {
     color: #2C5950;
-    font-size: 28px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
   }
 
@@ -204,5 +204,10 @@ footer {
     width: 40px; 
   }
 
+.center-headings {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
 
  
