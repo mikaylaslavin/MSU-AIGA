@@ -28,6 +28,22 @@ main {
   margin: 20px 0;
 }
 
+#resources-page main {
+  display: block; 
+}
+
+#resources-page p.margin {
+  margin: 20px 0;
+}
+
+#contact-page main {
+  display: block; 
+}
+
+#contact-page p.margin {
+  margin: 20px 0;
+}
+
 h1 {
   color: #00B48A;
   font-size: 28px;
